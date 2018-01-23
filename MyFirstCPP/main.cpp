@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int main()
+int oldMain()
 {
     // insert code here...
     cout << "Hello, World!\n" << endl;
