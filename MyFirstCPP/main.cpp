@@ -8,8 +8,14 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
+using namespace std;
+
+int main()
+{
     // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    cout << "Hello, World!\n" << endl;
+    string input;
+    cin >> input;
+    cout << "You said: " << input << endl;
+    return 99;
 }
